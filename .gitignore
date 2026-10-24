@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.env
+
+# SQLite Database & Uploads
+backend/database/*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+device/captured_audio/*
+
+# Trained Models (keep directory structure)
+backend/model/*.pkl
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
